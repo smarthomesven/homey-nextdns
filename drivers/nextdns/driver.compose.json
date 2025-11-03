@@ -1,0 +1,43 @@
+{
+  "name": {
+    "en": "Profile",
+    "nl": "Profiel"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "blocked_dns_requests",
+    "allowed_dns_requests",
+    "total_dns_requests"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "cloud"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "pair": [
+    {
+      "id": "apikey"
+    },
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "navigation": { "next": "add_devices" },
+      "options": { "singular": false }
+    },
+    {
+      "id": "add_devices",
+      "template": "add_devices"
+    }
+  ],
+  "repair": [
+    {
+      "id": "apikey"
+    }
+  ]
+}

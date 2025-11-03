@@ -1,0 +1,10 @@
+{
+    "pair": {
+        "save": "Save",
+        "saving": "Saving",
+        "title": "NextDNS",
+        "key": "API Key",
+        "failed": "Invalid API Key",
+        "info": "Go to my.nextdns.io and click on your email address at the top right corner. Go to Account and scroll down to API. Click on Generate API key and paste this key in the field below."
+    }
+}

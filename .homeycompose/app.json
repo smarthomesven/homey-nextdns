@@ -1,0 +1,31 @@
+{
+  "id": "io.nextdns",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "NextDNS",
+    "nl": "NextDNS"
+  },
+  "description": {
+    "en": "A safer internet",
+    "nl": "Een veiliger internet"
+  },
+  "category": [
+    "internet"
+  ],
+  "brandColor": "#007FFE",
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Sven Serlier",
+    "email": "sven@dypodex.com"
+  }
+}

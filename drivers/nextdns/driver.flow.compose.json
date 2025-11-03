@@ -1,0 +1,67 @@
+{
+  "triggers": [
+    {
+      "id": "allowed_dns_requests_changed",
+      "title": {
+        "en": "Allowed DNS requests changed",
+        "nl": "Toegestane DNS-verzoeken veranderd"
+      },
+      "tokens": [
+          {
+            "name": "allowed_dns_requests",
+            "type": "number",
+            "title": {
+                "en": "Allowed requests",
+                "nl": "Toegestane verzoeken"
+            },
+            "example": {
+                "en": "Allowed requests",
+                "nl": "Toegestane verzoeken"
+            }
+          }
+        ]
+    },
+    {
+      "id": "blocked_dns_requests_changed",
+      "title": {
+        "en": "Blocked DNS requests changed",
+        "nl": "Geblokkeerde DNS-verzoeken veranderd"
+      },
+      "tokens": [
+          {
+            "name": "blocked_dns_requests",
+            "type": "number",
+            "title": {
+                "en": "Blocked requests",
+                "nl": "Geblokkeerde verzoeken"
+            },
+            "example": {
+                "en": "Blocked requests",
+                "nl": "Geblokkeerde verzoeken"
+            }
+          }
+        ]
+    },
+    {
+      "id": "total_dns_requests_changed",
+      "title": {
+        "en": "Total DNS requests changed",
+        "nl": "Totale DNS-verzoeken veranderd"
+      },
+      "tokens": [
+          {
+            "name": "total_dns_requests",
+            "type": "number",
+            "title": {
+                "en": "Total requests",
+                "nl": "Totale verzoeken"
+            },
+            "example": {
+                "en": "Total requests",
+                "nl": "Totale verzoeken"
+            }
+          }
+        ]
+    }
+  ]
+}

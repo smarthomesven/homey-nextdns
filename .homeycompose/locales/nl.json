@@ -1,0 +1,10 @@
+{
+    "pair": {
+        "save": "Opslaan",
+        "saving": "Opslaan",
+        "title": "NextDNS",
+        "key": "API-sleutel",
+        "failed": "Ongeldige API-sleutel",
+        "info": "Ga naar my.nextdns.io en klik op je emailadres rechtsboven. Ga naar Account en scroll naar API. Klik op Genereer API-sleuts en plak deze in het veld hierbeneden."
+    }
+}

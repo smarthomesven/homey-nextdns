@@ -1,0 +1,12 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Blocked requests",
+    "nl": "Geblokkeerde verzoeken"
+  },
+  "uiComponent": "sensor",
+  "getable": true,
+  "setable": false,
+  "insights": true,
+  "icon": "/assets/blocked.svg"
+}

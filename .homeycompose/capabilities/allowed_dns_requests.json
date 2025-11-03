@@ -1,0 +1,12 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Allowed requests",
+    "nl": "Toegestane verzoeken"
+  },
+  "uiComponent": "sensor",
+  "getable": true,
+  "setable": false,
+  "insights": true,
+  "icon": "/assets/allowed.svg"
+}

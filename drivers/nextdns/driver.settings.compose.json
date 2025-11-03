@@ -1,0 +1,62 @@
+[
+    {
+        "id": "timerange",
+        "type": "dropdown",
+        "value": "24h",
+        "label": {
+        "en": "DNS requests time limit",
+        "nl": "DNS-verzoeken tijdslimiet"
+    },
+    "values": [
+        {
+            "id": "1h",
+            "label": {
+            "en": "Last hour",
+            "nl": "Afgelopen uur"
+        }
+        },
+        {
+            "id": "24h",
+            "label": {
+                "en": "Last 24 hours",
+                "nl": "Afgelopen 24 uur"
+            }
+        },
+        {
+            "id": "1d",
+            "label": { 
+            "en": "Last day",
+            "nl": "Afgelopen dag"
+            }
+        },
+        {
+            "id": "7d",
+            "label": {
+                "en": "Last 7 days",
+                "nl": "Afgelopen 7 dagen"
+            }
+        },
+        {
+            "id": "14d",
+            "label": {
+                "en": "Last 14 days",
+                "nl": "Afgelopen 14 dagen"
+            }
+        },
+        {
+            "id": "30d",
+            "label": {
+                "en": "Last 30 days",
+                "nl": "Afgelopen 30 dagen"
+            }
+        },
+        {
+            "id": "all",
+            "label": {
+                "en": "No limit",
+                "nl": "Geen limiet"
+            }
+        }
+    ]
+    }
+]
