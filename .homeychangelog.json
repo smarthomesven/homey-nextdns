@@ -10,5 +10,8 @@
   },
   "1.0.3": {
     "en": "Fixed API key check"
+  },
+  "1.0.4": {
+    "en": "Updated README files"
   }
 }
