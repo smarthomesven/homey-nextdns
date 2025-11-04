@@ -13,5 +13,8 @@
   },
   "1.0.4": {
     "en": "Updated README files"
+  },
+  "1.0.5": {
+    "en": "Added add/remove from blocklist action cards"
   }
 }
