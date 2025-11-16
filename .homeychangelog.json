@@ -25,5 +25,8 @@
   },
   "1.0.8": {
     "en": "Update dependencies"
+  },
+  "1.0.9": {
+    "en": "Set service device class instead of sensor for the profile driver"
   }
 }
