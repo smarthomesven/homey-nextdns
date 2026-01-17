@@ -10,9 +10,8 @@
   </head>
   <body>
     <fieldset class="homey-form-fieldset">
-      <legend class="homey-form-legend" data-i18n="pair.title">NextDNS</legend>
+      <legend class="homey-form-legend">NextDNS</legend>
       <br>
-      <strong data-i18n="pair.subscription"></strong>
       <p data-i18n="pair.info"></p>
       <div class="homey-form-group">
         <label class="homey-form-label" for="apikey" data-i18n="pair.key">API Key</label>
@@ -20,18 +19,18 @@
       </div>
     </fieldset>
 
-    <p class="error" id="failed" style="display: none;" data-i18n="pair.failed">Invalid API Key</p>
-    <p class="error" id="noinput" style="display: none;" data-i18n="pair.noinput">Please enter an API Key</p>
+    <p class="error" id="failed" data-i18n="pair.failed">Invalid API Key</p>
+    <p class="error" id="noinput" data-i18n="pair.noinput">Please enter an API key</p>
     <button id="save" class="homey-button-primary-full" data-i18n="settings.save">Save</button>
     <script type="text/javascript">
       const keyElement = document.getElementById('apikey');
       const errorElement = document.getElementById('failed');
-      const saveElement = document.getElementById('save');
       const noInputElement = document.getElementById('noinput');
+      const saveElement = document.getElementById('save');
         saveElement.addEventListener("click", function (e) {
-          setSaving();
           errorElement.style.display = 'none';
           noInputElement.style.display = 'none';
+          setSaving();
           const key = keyElement.value;
           if (!key) {
             noInputElement.style.display = 'block';

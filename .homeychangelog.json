@@ -28,5 +28,8 @@
   },
   "1.0.9": {
     "en": "Set service device class instead of sensor for the profile driver"
+  },
+  "1.0.10": {
+    "en": "Improved handling of the API key input field when no key was entered"
   }
 }

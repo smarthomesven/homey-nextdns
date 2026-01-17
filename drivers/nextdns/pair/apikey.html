@@ -20,13 +20,13 @@
     </fieldset>
 
     <p class="error" id="failed" data-i18n="pair.failed">Invalid API Key</p>
-    <p class="error" id="noinput" data-i18n="pair.noinput">Please enter an API Key</p>
+    <p class="error" id="noinput" data-i18n="pair.noinput">Please enter an API key</p>
     <button id="save" class="homey-button-primary-full" data-i18n="settings.save">Save</button>
     <script type="text/javascript">
       const keyElement = document.getElementById('apikey');
       const errorElement = document.getElementById('failed');
-      const saveElement = document.getElementById('save');
       const noInputElement = document.getElementById('noinput');
+      const saveElement = document.getElementById('save');
         saveElement.addEventListener("click", function (e) {
           errorElement.style.display = 'none';
           noInputElement.style.display = 'none';
