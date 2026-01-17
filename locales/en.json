@@ -5,6 +5,7 @@
     "title": "NextDNS",
     "key": "API Key",
     "failed": "Invalid API Key",
-    "info": "Go to my.nextdns.io and click on your email address at the top right corner. Go to Account and scroll down to API. Click on Generate API key and paste it in the field below."
+    "info": "Go to my.nextdns.io and click on your email address at the top right corner. Go to Account and scroll down to API. Click on Generate API key and paste it in the field below.",
+    "noinput": "Enter an API Key"
   }
 }
