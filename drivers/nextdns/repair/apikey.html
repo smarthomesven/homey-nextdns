@@ -12,25 +12,34 @@
     <fieldset class="homey-form-fieldset">
       <legend class="homey-form-legend" data-i18n="pair.title">NextDNS</legend>
       <br>
-      <p data-i18n="pair.info">Go to my.nextdns.io and click on your email address at the top right corner. Go to Account and scroll down to API. Click on Generate API key and paste this key in the field below.</p>
+      <strong data-i18n="pair.subscription"></strong>
+      <p data-i18n="pair.info"></p>
       <div class="homey-form-group">
         <label class="homey-form-label" for="apikey" data-i18n="pair.key">API Key</label>
         <input class="homey-form-input" id="apikey" type="text" value="" />
       </div>
     </fieldset>
 
-    <p class="error" id="failed" data-i18n="pair.failed">Invalid API Key</p>
+    <p class="error" id="failed" style="display: none;" data-i18n="pair.failed">Invalid API Key</p>
+    <p class="error" id="noinput" style="display: none;" data-i18n="pair.noinput">Please enter an API Key</p>
     <button id="save" class="homey-button-primary-full" data-i18n="settings.save">Save</button>
     <script type="text/javascript">
       const keyElement = document.getElementById('apikey');
       const errorElement = document.getElementById('failed');
       const saveElement = document.getElementById('save');
-      errorElement.style.display = 'none';
+      const noInputElement = document.getElementById('noinput');
         saveElement.addEventListener("click", function (e) {
           setSaving();
+          errorElement.style.display = 'none';
+          noInputElement.style.display = 'none';
           const key = keyElement.value;
+          if (!key) {
+            noInputElement.style.display = 'block';
+            setSave();
+            return;
+          }
           Homey.emit("apikey", { apikey: key  }).then(function (result) {
-            if (!result) {
+            if (result === false) {
               errorElement.style.display = 'block';
               setSave();
             }
