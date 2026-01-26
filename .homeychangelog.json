@@ -34,5 +34,8 @@
   },
   "1.0.11": {
     "en": "Fix pairing views"
+  },
+  "1.0.12": {
+    "en": "Update dependencies"
   }
 }
