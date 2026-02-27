@@ -1,6 +1,6 @@
 {
   "id": "io.nextdns",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "compatibility": ">=12.3.0",
   "sdk": 3,
   "platforms": [
