@@ -4,4 +4,4 @@ FEATURES:
 - Counts allowed, blocked and total requests
 - Use changes in allowed, blocked and total requests in your Flows
 
-You can add multiple NextDNS profiles using this app
+You can add multiple NextDNS profiles using this app.
