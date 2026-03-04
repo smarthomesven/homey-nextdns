@@ -115,11 +115,11 @@ module.exports = class ProfileDriver extends Homey.Driver {
       device.setCapabilityValue("allowed_dns_requests", allowed);
     } catch (error) {
       if (error.response && error.response.status === 403) {
-        device.setUnavailable("Invalid API Key").catch(this.error);
+        device.setUnavailable(this.homey.__("errors.key")).catch(this.error);
         return;
       }
       this.error("Error while checking device status: " + error.message);
-      device.setUnavailable().catch(this.error);
+      device.setUnavailable(this.homey.__("errors.unreachable")).catch(this.error);
     }
   }
 
