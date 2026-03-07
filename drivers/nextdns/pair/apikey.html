@@ -47,11 +47,13 @@
         function setSave() {
           saveElement.className = 'homey-button-primary-full';
           saveElement.textContent = Homey.__('pair.save');
+          keyElement.disabled = false;
         }
 
         function setSaving() {
           saveElement.className = 'homey-button-primary-full is-loading';
           saveElement.textContent = Homey.__('pair.saving');
+          keyElement.disabled = true;
         }
     </script>
   </body>
