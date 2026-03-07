@@ -55,5 +55,8 @@
   },
   "1.0.18": {
     "en": "Fixed unavailable status"
+  },
+  "1.0.19": {
+    "en": "Improved pairing views"
   }
 }
