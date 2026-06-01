@@ -1,14 +1,13 @@
 {
   "id": "io.nextdns",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "compatibility": ">=12.3.0",
   "sdk": 3,
   "platforms": [
     "local"
   ],
   "name": {
-    "en": "NextDNS",
-    "nl": "NextDNS"
+    "en": "NextDNS"
   },
   "description": {
     "en": "A safer internet",
